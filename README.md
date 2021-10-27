@@ -15,6 +15,21 @@ MultiSiteMap is descripbing many services based on xPath address:
     Such go to some address and click a send button
 
 
+
+aby klienci wiedzieli jaki możlwiości stoją za webstream
+
+mam propozycję, aby można było generować np z wielu dokumentów html, jeden
+
+plus generowanie pdf/zip, itd
+
+chodzi o wykorzystanie funkcji ładowania z wielu url do jednego wynikowego, takie podstawy
+
+aby to było też widoczne wizualnie, można by jakieś znane fragmenty z netu połączyć w jedno i pokazac, że można zrobić np, ebooka
+
+
+
+
+
 ## Goals 
 
 ---
