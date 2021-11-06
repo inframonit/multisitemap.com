@@ -2,6 +2,7 @@
 
 + [logo.multisitemap.com](https://logo.multisitemap.com/)
 
+
 ## Idea
 
 every day we are doing something in some context
@@ -30,11 +31,39 @@ aby to było też widoczne wizualnie, można by jakieś znane fragmenty z netu p
 
 
 
-## Goals 
+## Example
+
+based on [www.webstream.dev](https://www.webstream.dev/#/) solution:
+
+
+
+
+
+## Podobne projekty
++ [apitee.com](https://www.apitee.com/)
++ [apifork.com](https://www.apifork.com/)
++ [apicup.com](https://www.apicup.com/)
+
+
+## Inne tematy:
+
++ [Zaplanuj Biznes](https://www.zaplanujbiznes.pl/)
++ [Dlaczego warto robić biznes w Niemczech? dlaczego.de](https://www.dlaczego.de)
++ [Dlaczeo warto i jak zostać rezydentem niemieckim? rezydent.de](https://www.rezydent.de)
++ [Jak zostać nierezydentem polskim? nierezydent.pl](https://www.nierezydent.pl/)
+
+
+---
+
+## Tom Sapletta
++ [Kontakt na linkedin](https://www.linkedin.com/in/tom-sapletta-com/)
++ [Blog Tom Sapletta ' Embedded System Software & Hardware Developer, Germany Essen](https://tom.sapletta.pl/)
++ [Firma Softreck - Leadership Through Software Development](https://softreck.pl/)
+
 
 ---
 + [edit](https://github.com/multisitemap/www/edit/main/README.md)
++ 
 ```
 https://github.com/multisitemap/www.git
 ```
-
