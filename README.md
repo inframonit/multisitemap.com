@@ -5,13 +5,22 @@
 
 ## Idea
 
+celem jest mapowanie infrastruktury stron internetowych powiązanych z usługami providerów
+w celu późniejszego odtworzenia tej nifrastruktury
+jej przeniesienia lub migracji do nowej z zachowaniem poprzednich parametrów infrastruktury
+
+polega na zebraniu wszystkich informacji dostępnych po autoryzacji do systemu\
+dostępie do infrastruktury testowej gdzie można przetestować jak działa, czy została poprawnie zmapowana.
+
+
+
 every day we are doing something in some context
 
 Each task is part of Project or Operation Flow.
 
 How to create good map to create the way of faster?
 
-MultiSiteMap is descripbing many services based on xPath address:
+MultiSiteMap is describing many services based on xPath address:
 
     Such go to some address and click a send button
 
