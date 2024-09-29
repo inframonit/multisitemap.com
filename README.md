@@ -14,6 +14,9 @@ https://www.multisitemap.com/valid-links.js
 <script src="//www.multisitemap.com/valid-links.js"></script>
 ```
 
+<script src="//www.multisitemap.com/valid-links.js"></script>
+
+
 ## test
 
 <a href="//www.multisitemap123.com/valid-links.js">not working url</a>
