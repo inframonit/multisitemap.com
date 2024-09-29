@@ -3,6 +3,18 @@
 + [logo.multisitemap.com](https://logo.multisitemap.com/)
 
 
+## include in website
+
+```
+https://www.multisitemap.com/valid-links.js
+```
+
+
+```html
+<script src="//www.multisitemap.com/valid-links.js"></script>
+```
+
+
 ## Idea
 
 celem jest mapowanie infrastruktury stron internetowych powiązanych z usługami providerów
