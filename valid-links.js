@@ -1,18 +1,24 @@
 (function() {
+    const PHP_VALIDATOR_URL = 'http://url.multisitemap.com/index.php'; // Zmień na właściwy URL
+
     function validateLinks() {
         const links = document.getElementsByTagName('a');
         
         Array.from(links).forEach(link => {
-            fetch(link.href, { method: 'HEAD', mode: 'no-cors' })
-                .then(response => {
-                    if (response.ok) {
+            const url = encodeURIComponent(link.href);
+            fetch(`${PHP_VALIDATOR_URL}?url=${url}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.status === 'valid') {
                         link.style.fontWeight = 'bold';
                     } else {
                         link.style.textDecoration = 'line-through';
+                        link.style.opacity = '0.5';
                     }
                 })
                 .catch(() => {
                     link.style.textDecoration = 'line-through';
+                    link.style.opacity = '0.5';
                 });
         });
     }
@@ -21,7 +27,6 @@
     const style = document.createElement('style');
     style.textContent = `
         a { transition: all 0.3s ease; }
-        a[style*="line-through"] { opacity: 0.5; }
     `;
     document.head.appendChild(style);
 
