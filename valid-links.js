@@ -1,5 +1,5 @@
 (function() {
-    const PHP_VALIDATOR_URL = 'http://url.multisitemap.com/index.php'; // Zmień na właściwy URL
+    const PHP_VALIDATOR_URL = 'https://url.multisitemap.com/index.php'; // Zmień na właściwy URL
 
     function validateLinks() {
         const links = document.getElementsByTagName('a');
